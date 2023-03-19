@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+
+nav, footer {
+    background-color: #f393bc;
+    height: 50px;
+    width: auto;
+}
+
+body {
+    background-color: #ffb8d9;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
