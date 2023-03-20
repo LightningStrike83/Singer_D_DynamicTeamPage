@@ -20,18 +20,18 @@ h2 {
     margin-bottom: 20px;
 }
 
-#lightning_info {
+#lightning_info, #monika_info {
     border-radius: 5px;
     border: 2px solid white;
     text-align: center;
     margin-bottom: 20px;
 }
 
-#lightning_info:hover {
+#lightning_info:hover, #monika_info:hover {
     cursor: pointer;
 }
 
-#lightning_info p {
+#lightning_info p, #monika_info p {
     font-size: 20px;
     color: white;
     margin-bottom: 20px;
