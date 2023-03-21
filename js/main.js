@@ -12,6 +12,7 @@ let team = [
         birthday : 'Birthday: October 17th',
         sexuality : 'Sexuality: Asexual',
         fav_colour : 'Favourite Colour: Orange',
+        fav_game : 'Favourite Game: Pokemon Lets Go Eevee',
     },
 
     {
@@ -30,6 +31,7 @@ function getTeamData() {
     let teamMember = this.dataset.member
     console.log(team[teamMember]);
 
+    document.querySelector('.name_info').textContent = team [teamMember].name;
     document.querySelector('.nickname_info').textContent = team [teamMember].nicknames;
     document.querySelector('.height_info').textContent = team [teamMember].height;
     document.querySelector('.age_info').textContent = team [teamMember].age;
