@@ -20,6 +20,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #lightning_info, #monika_info {
     border-radius: 5px;
     border: 2px solid white;
