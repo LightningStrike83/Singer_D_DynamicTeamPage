@@ -1,6 +1,7 @@
 console.log('Doki Doki!');
 
-let teamInfo = document.querySelectorAll("section div img");
+let lightningInfo = document.querySelectorAll("#lightning div img");
+let monikaInfo = document.querySelectorAll("#monika div img");
 
 let team = [
     {
@@ -11,6 +12,17 @@ let team = [
         birthday : 'Birthday: October 17th',
         sexuality : 'Sexuality: Asexual',
         fav_colour : 'Favourite Colour: Orange',
+    },
+
+    {
+        name : 'Monika',
+        nicknames : 'Nicknames: lilmonix3, Moni-bear',
+        height : 'Height: 5 ft  3 inches',
+        age : 'Age: 22',
+        birthday : 'Birthday: September 22nd',
+        sexuality : 'Sexuality: Pansexual',
+        fav_colour : 'Favourite Colour: Emerald Green',
+        fav_game : 'Favourite Game: Doki Doki Literature Club',
     },
 ]
 
@@ -24,6 +36,8 @@ function getTeamData() {
     document.querySelector('.birthday_info').textContent = team [teamMember].birthday;
     document.querySelector('.sexuality_info').textContent = team [teamMember].sexuality;
     document.querySelector('.fav_colour_info').textContent = team [teamMember].fav_colour;
+    document.querySelector('.fav_colour_info').textContent = team [teamMember].fav_game;
 }
 
-teamInfo.forEach(image => image.addEventListener('click', getTeamData));
+lightningInfo.forEach(image => image.addEventListener('click', getTeamData));
+monikaInfo.forEach(image => image.addEventListener('click', getTeamData));
