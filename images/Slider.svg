@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Slider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.26 59.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6b6d2;
+        stroke-width: .9px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #f2f2f3;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #f495bb;
+        stroke-width: 1.07px;
+      }
+    </style>
+  </defs>
+  <rect id="Base" class="cls-1" x="3.43" y=".54" width="174.38" height="58" rx="26.18" ry="26.18"/>
+  <circle id="Button" class="cls-2" cx="29.54" cy="29.54" r="29"/>
+</svg>
