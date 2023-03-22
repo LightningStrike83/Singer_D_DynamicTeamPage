@@ -2,6 +2,7 @@ console.log('Doki Doki!');
 
 let lightningInfo = document.querySelectorAll("#lightning div img");
 let monikaInfo = document.querySelectorAll("#monika div img");
+let sliderButton = document.querySelector ("#Slider");
 
 let team = [
     {
@@ -41,5 +42,18 @@ function getTeamData() {
     document.querySelector('.fav_colour_info').textContent = team [teamMember].fav_game;
 }
 
+function changeTheme() {
+    var lightningImg = document.getElementById("lightning_pic");
+    lightningImg.src="images/just_lightning.jpg";
+
+    var monikaImg = document.getElementById("monika_pic");
+    monikaImg.src="images/just_monika.jpg";
+
+    var body = document.body;
+    body.style.fontFamily = "Rubik Glitch";
+}
+
+
 lightningInfo.forEach(image => image.addEventListener('click', getTeamData));
 monikaInfo.forEach(image => image.addEventListener('click', getTeamData));
+sliderButton.addEventListener('click', changeTheme);

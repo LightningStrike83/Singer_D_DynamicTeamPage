@@ -4,12 +4,29 @@
 
 nav, footer {
     background-color: #f393bc;
-    height: 50px;
+    height: 100px;
     width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding-right: 100px;
+}
+
+svg {
+    height: 50px;
 }
 
 body {
     background-color: #ffb8d9;
+}
+
+img, svg {
+    cursor: pointer;
 }
 
 h2 {
