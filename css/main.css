@@ -2,19 +2,16 @@
     display: none;
 }
 
-nav, footer {
+nav {
     background-color: #f393bc;
     height: 100px;
     width: auto;
+    align-items: center;
+    justify-items: center;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    padding-right: 100px;
+p {
+    font-family: 'Itim', 'Times New Roman', Times, serif;
 }
 
 svg {
@@ -35,6 +32,7 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Itim', 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -43,6 +41,18 @@ h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Itim', 'Times New Roman', Times, serif;
+}
+
+#nav_menu ul li {
+    display: inline-flex;
+    padding: 10px;
+    font-family: 'Itim', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav svg {
+    align-self: center;
 }
 
 #lightning_info, #monika_info, #information {

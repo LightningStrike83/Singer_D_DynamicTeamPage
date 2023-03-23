@@ -14,6 +14,7 @@ let team = [
         sexuality : 'Sexuality: Asexual',
         fav_colour : 'Favourite Colour: Orange',
         fav_game : 'Favourite Game: Pokemon Lets Go Eevee',
+        avatar : 'lightning_neutral.jpg'
     },
 
     {
@@ -49,8 +50,22 @@ function changeTheme() {
     var monikaImg = document.getElementById("monika_pic");
     monikaImg.src="images/just_monika.jpg";
 
-    var body = document.body;
-    body.style.fontFamily = "Rubik Glitch";
+    var headings = document.querySelectorAll('h2, h3');
+    headings.forEach(function(heading) {
+        heading.style.fontFamily = 'Rubik Glitch';
+    });
+
+    var paragraphs = document.querySelectorAll('p');
+    paragraphs.forEach(function(paragraph) {
+        paragraph.style.fontFamily = 'Rubik Glitch';
+    });
+
+    var navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(function(link) {
+    link.style.fontFamily = 'Rubik Glitch';
+    link.textContent = 'Just Monika';
+    link.style.fontSize = '14px'
+});
 }
 
 
