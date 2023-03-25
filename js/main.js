@@ -3,6 +3,7 @@ console.log('Doki Doki!');
 let lightningInfo = document.querySelectorAll("#lightning div img");
 let monikaInfo = document.querySelectorAll("#monika div img");
 let sliderButton = document.querySelector ("#slider");
+let themeActive = false;
 
 let team = [
     {
@@ -60,7 +61,7 @@ function changeTheme() {
         paragraph.style.fontFamily = 'Rubik Glitch';
     });
 
-    var navLinks = document.querySelectorAll('nav a');
+    var navLinks = document.querySelectorAll('nav ul li a');
     navLinks.forEach(function(link) {
     link.style.fontFamily = 'Rubik Glitch';
     link.textContent = 'Just Monika';
@@ -69,6 +70,19 @@ function changeTheme() {
 
     var sliderImg = document.getElementById("slider");
     sliderImg.src="images/Slider_Dark.svg";
+
+    document.body.style.backgroundColor = "#B93A2B"
+
+    var navColour = document.querySelector("nav")
+    navColour.style.backgroundColor = "#B93A2B"
+
+    var cls2Elements = document.querySelectorAll('.cls-2');
+    cls2Elements.forEach(function(elem) {
+    elem.style.fill = '#B93A2B';
+    });
+
+    var sliderImg = document.getElementById("logo");
+    sliderImg.src = "images/Slider_Dark.svg";
 }
 
 
