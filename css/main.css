@@ -14,16 +14,16 @@ p {
     font-family: 'Itim', 'Times New Roman', Times, serif;
 }
 
-svg {
-    height: 50px;
-}
-
 body {
     background-color: #ffb8d9;
 }
 
 img, svg {
     cursor: pointer;
+}
+
+nav svg {
+    align-self: center;
 }
 
 h2 {
@@ -44,6 +44,11 @@ h3 {
     font-family: 'Itim', 'Times New Roman', Times, serif;
 }
 
+#logo {
+    height: 75px;
+    padding-left: 20px;
+}
+
 #nav_menu ul li {
     display: inline-flex;
     padding: 10px;
@@ -51,8 +56,8 @@ h3 {
     font-size: 20px;
 }
 
-nav svg {
-    align-self: center;
+#slider {
+    height: 50px;
 }
 
 #lightning_info, #monika_info, #information {

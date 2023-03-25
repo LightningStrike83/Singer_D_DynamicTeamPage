@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Slider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.26 59.07">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.26 59.07">
   <defs>
     <style>
       .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
         fill: #f6b6d2;
         stroke-width: .9px;
       }
 
-      .cls-1, .cls-2 {
+      .cls-2, .cls-4 {
         stroke: #f2f2f3;
-        stroke-miterlimit: 10;
       }
 
-      .cls-2 {
+      .cls-3, .cls-4 {
         fill: #f495bb;
         stroke-width: 1.07px;
       }
     </style>
   </defs>
-  <rect id="Base" class="cls-1" x="3.43" y=".54" width="174.38" height="58" rx="26.18" ry="26.18"/>
-  <circle id="Button" class="cls-2" cx="29.54" cy="29.54" r="29"/>
+  <g id="Slider">
+    <rect id="Base" class="cls-2" x="3.43" y=".54" width="174.38" height="58" rx="26.18" ry="26.18"/>
+    <circle id="Button" class="cls-4" cx="29.54" cy="29.54" r="29"/>
+    <circle class="cls-3" cx="29.54" cy="29.54" r="12.13"/>
+    <line id="N" class="cls-1" x1="29.54" y1="3.09" x2="29.54" y2="14.66"/>
+    <line id="S" class="cls-1" x1="29.54" y1="44.41" x2="29.54" y2="55.98"/>
+    <line id="E" class="cls-1" x1="56.24" y1="28.96" x2="44.66" y2="28.96"/>
+    <line id="W" class="cls-1" x1="15" y1="28.96" x2="3.43" y2="28.96"/>
+    <line id="NW" class="cls-1" x1="19.27" y1="18.42" x2="11.08" y2="10.23"/>
+    <line id="SE" class="cls-1" x1="48.42" y1="48.25" x2="40.23" y2="40.06"/>
+    <line id="NE" class="cls-1" x1="48.76" y1="10.57" x2="40.57" y2="18.76"/>
+    <line id="SW" class="cls-1" x1="19.27" y1="40.06" x2="11.08" y2="48.25"/>
+  </g>
 </svg>
