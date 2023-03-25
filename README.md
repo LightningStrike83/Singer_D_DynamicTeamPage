@@ -1,4 +1,4 @@
-# Lightning and Monika Team Page 
+# Lightning and Monika Team Page  
 
 A team page designed and dedicated to introduce Lightning and Monika  
 
