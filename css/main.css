@@ -10,6 +10,19 @@ nav {
     justify-items: center;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
 p {
     font-family: 'Itim', 'Times New Roman', Times, serif;
 }
