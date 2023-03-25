@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.26 59.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6b6d2;
+        stroke-width: .9px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #f2f2f3;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 1.07px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f495bb;
+      }
+
+      .cls-3 {
+        stroke-width: 1.3px;
+      }
+    </style>
+  </defs>
+  <g id="Slider_Dark">
+    <rect id="Base" class="cls-1" x=".45" y=".54" width="174.38" height="58" rx="26.18" ry="26.18" transform="translate(175.29 59.07) rotate(-180)"/>
+    <circle id="Button" class="cls-2" cx="148.73" cy="29.54" r="29"/>
+    <path class="cls-3" d="M156.37,12.3c-4.79-2.76-10.24-3.31-15.19-1.96,1.91,.29,3.78,.9,5.53,1.91,8.19,4.73,10.62,15.86,5.42,24.87-3.45,5.97-9.38,9.49-15.38,9.81,9.48,5.27,21.46,1.99,26.9-7.44s2.23-21.7-7.29-27.19Z"/>
+  </g>
+</svg>

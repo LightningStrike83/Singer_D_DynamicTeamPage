@@ -2,7 +2,7 @@ console.log('Doki Doki!');
 
 let lightningInfo = document.querySelectorAll("#lightning div img");
 let monikaInfo = document.querySelectorAll("#monika div img");
-let sliderButton = document.querySelector ("#Slider");
+let sliderButton = document.querySelector ("#slider");
 
 let team = [
     {
@@ -64,8 +64,11 @@ function changeTheme() {
     navLinks.forEach(function(link) {
     link.style.fontFamily = 'Rubik Glitch';
     link.textContent = 'Just Monika';
-    link.style.fontSize = '14px'
-});
+    link.style.fontSize = '12px'
+    });
+
+    var sliderImg = document.getElementById("slider");
+    sliderImg.src="images/Slider_Dark.svg";
 }
 
 
