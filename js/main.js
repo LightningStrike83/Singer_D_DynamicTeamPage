@@ -1,9 +1,8 @@
 console.log('Doki Doki!');
 
-let lightningInfo = document.querySelectorAll("#lightning div img");
-let monikaInfo = document.querySelectorAll("#monika div img");
+let lightningInfo = document.querySelector ("#lightning div img");
+let monikaInfo = document.querySelector ("#monika div img");
 let sliderButton = document.querySelector ("#slider");
-let themeActive = false;
 
 let team = [
     {
@@ -15,7 +14,6 @@ let team = [
         sexuality : 'Sexuality: Asexual',
         fav_colour : 'Favourite Colour: Orange',
         fav_game : 'Favourite Game: Pokemon Lets Go Eevee',
-        avatar : 'lightning_neutral.jpg'
     },
 
     {
@@ -31,7 +29,7 @@ let team = [
 ]
 
 function getTeamData() {
-    let teamMember = this.dataset.member
+    let teamMember = this.dataset.member;
     console.log(team[teamMember]);
 
     document.querySelector('.name_info').textContent = team [teamMember].name;
@@ -65,16 +63,16 @@ function changeTheme() {
     navLinks.forEach(function(link) {
     link.style.fontFamily = 'Rubik Glitch';
     link.textContent = 'Just Monika';
-    link.style.fontSize = '12px'
+    link.style.fontSize = '12px';
     });
 
     var sliderImg = document.getElementById("slider");
     sliderImg.src="images/Slider_Dark.svg";
 
-    document.body.style.backgroundColor = "#B93A2B"
+    document.body.style.backgroundColor = "#B93A2B";
 
-    var navColour = document.querySelector("nav")
-    navColour.style.backgroundColor = "#B93A2B"
+    var navColour = document.querySelector("nav");
+    navColour.style.backgroundColor = "#B93A2B";
 
     var cls2Elements = document.querySelectorAll('.cls-2');
     cls2Elements.forEach(function(elem) {
@@ -86,6 +84,6 @@ function changeTheme() {
 }
 
 
-lightningInfo.forEach(image => image.addEventListener('click', getTeamData));
-monikaInfo.forEach(image => image.addEventListener('click', getTeamData));
+lightningInfo.addEventListener('click', getTeamData);
+monikaInfo.addEventListener('click', getTeamData);
 sliderButton.addEventListener('click', changeTheme);
